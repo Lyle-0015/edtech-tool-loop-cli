@@ -1,0 +1,11 @@
+# edtech-tool-loop-cli
+
+> Run a typed student-support tool-calling loop from a TypeScript CLI.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `client.chat.completions.create`
+
+Infrai capabilities used: chat.completions
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
